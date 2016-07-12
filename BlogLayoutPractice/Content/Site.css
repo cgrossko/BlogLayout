@@ -1,0 +1,306 @@
+﻿body {
+    padding-top: 4px;
+    padding-bottom: 20px;
+    font-family: Lato;
+    word-spacing: 2px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input*/,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.navbar-nav {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-nav li {
+	/*flex-grow: .5;*/
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 0;
+	padding-bottom: 0;
+	letter-spacing: 2px;
+}
+
+.bg-faded {
+	background-color: rgb(255,255,255);
+	border: 1px solid black;
+	border-radius: 0;
+	line-height: 14px;
+}
+
+.calypso-div {
+	border-bottom: 1px solid black;
+}
+
+.title-container {
+	margin-top: 4rem;
+	margin-bottom: 6rem;
+}
+
+.hear-my-voice-div {
+	border-bottom: 1px solid black;
+}
+
+#top-pic {
+	width: 100%;
+}
+
+.card {
+	border: none;
+}
+
+.card-block {
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.card-text {
+	text-align: left;
+}
+
+.card-link {
+	border-color: black;
+	border-radius: 0;
+	background-color: black;
+	color: white;
+	font: normal bold 10px Lato;
+	padding: 1em 2.1em;
+	margin: 0 auto;
+	letter-spacing: 2px;
+}
+
+.sidebar {
+	position: absolute;
+	right: 5rem;
+}
+
+.social-section {
+	position: relative;
+}
+
+#social1 {
+	float: left;
+}
+
+#social1 i {
+	padding-left: 12px;
+}
+
+#social2 {
+	float: right;
+}
+
+.block-border {
+	border: 1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sidebar-title {
+	font-size: 13px;
+	color: gray;
+}
+
+.social-follow-block i {
+	padding-left: 12px;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+#about-img {
+	width: 75%;
+}
+
+.about-card {
+	border: 1px solid black;
+}
+
+.about-text {
+	text-align: center;
+	letter-spacing: .04em;
+	line-height: 18px;
+	font-size: 11px;
+}
+
+.text-muted {
+	padding-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+.sidebar-input {
+	border-radius: 0;
+	border-color: black;
+	height: 30px;
+	text-align: right;
+	cursor: auto;
+	font-size: 9.6px;
+	letter-spacing: 1px;
+	font-family: FontAwesome, Lato;
+	writing-mode: horizontal;
+}
+
+.email-input {
+	border-radius: 0;
+	border-color: black;
+	height: 30px;
+	text-align: center;
+	cursor: auto;
+	font-size: 9.6px;
+	letter-spacing: 1px;
+	font-family: FontAwesome, Lato;
+	writing-mode: horizontal;
+}
+
+.sidebar-btn {
+	width: 100%;
+	height: 30px;
+}
+
+a img:hover {
+ 	transition: all ease-in .3s;
+ 	opacity: 0.5;
+ }
+
+ .img-circle {
+ 	width: 70px;
+ 	height: 70px;
+}
+
+.recent-img {
+	width: 50%;
+	border: 1px solid white;
+}
+
+.box {
+	position: relative;
+}
+
+.box img {
+	position: absolute;
+}
+
+.caption {
+	background-color: rgba(0,0,0,.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+	transition: all 300ms ease-out;
+	left: 0;
+}
+
+.simple-caption {
+	height: 30px;
+	width: 100px;
+	display: block;
+	bottom: -30px;
+	line-height: 25pt;
+	text-align: center;
+}
+
+.box:hover .simple-caption {
+	transform: translateY(-100%);
+}
+
+#footer {
+	background-color: #fbfbfb;
+	min-height: 250px;
+}
+
+.footer-title {
+	font-size: 13px;
+	color: black;
+	text-align: center;
+	background: white;
+	margin-top: 15px;
+}
+
+.dropdown-toggle, .dropdown-menu a, .list-group button {
+	border: hidden;
+	width: 100%;
+	text-align: left;
+	background: #fbfbfb;
+	color: rgb(101,101,101);
+	letter-spacing: .04em;
+	line-height: 18px;
+	font-size: 11px;
+}
+
+.dropdown-toggle:hover, .dropdown-menu a:hover {
+	transition: all .3s ease-out;
+	color: black;
+}
+
+.list-group button {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.list-group button:hover {
+	background: linear-gradient(to right, rgb(247,247,247), rgb(240,240,240), rgb(247,247,247));
+	border-right: 3px solid black;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.footer-text {
+	font-size: 11px;
+	line-height: 18px;
+	letter-spacing: .04em;
+	color: rgb(101,101,101);
+	text-align: center;
+	display: block;
+}
+
+.fa-envelope {
+	padding-right: 5px;
+}
+
+.footer-img-div {
+	display: flex;
+}
+
+.footer-img-div a {
+	flex-grow: 1;
+}
+
+.footer-img {
+	width: 150px;
+	height: 150px;
+	border: 1px solid white;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+
+
+
+
+
